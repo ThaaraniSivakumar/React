@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ConfirmPassword from './components/ConfirmPassword';
 import LoginForm from './components/LoginForm';
 
 function App() {
   return (
     <div>
-      <LoginForm/>
+      {/* <LoginForm/> */}
+      <ConfirmPassword/>
     </div>
   );
 }
